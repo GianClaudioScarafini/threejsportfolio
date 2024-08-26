@@ -10,7 +10,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <div className='About-picture m-2'>
-            <img src='src/assets/Gian_squared.png' alt='Gian' />
+            <img src='./public/Gian_squared.png' alt='Gian' />
     
           </div>
           <div className='About-me m-2'>
