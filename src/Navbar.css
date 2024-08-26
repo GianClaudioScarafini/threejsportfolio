@@ -1,0 +1,53 @@
+
+
+.Navbar{
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: sticky;
+    
+
+}
+.Navbar ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Navbar ul li{
+    padding: 1em;
+    margin: 2px;
+    width: 15rem;
+    color: rgb(151, 151, 151);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.Navbar ul :hover{
+    color: rgb(189, 189, 202);
+}
+
+@media screen and (max-width: 768px){
+    .Navbar ul{
+    }
+    .Navbar ul li{
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 380px){
+
+    .Navbar ul li{
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+}
