@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import gianImage from '../public/Gian_squared.png';
 
 function App() {
   
@@ -10,7 +11,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <div className='About-picture m-2'>
-            <img src='./public/Gian_squared.png' alt='Gian' />
+            <img src={gianImage} alt='Gian' />
     
           </div>
           <div className='About-me m-2'>
